@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
 }
@@ -22,6 +22,19 @@ h6 {
 
 img {
   width: 100%;
+}
+
+.skiplink {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.skiplink:focus {
+  top: 0;
+  background-color: black;
+  color: #fff;
+  padding: 15px;
 }
 
 .main-nav ul {
